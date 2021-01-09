@@ -28,4 +28,4 @@ Observations:
 2. The implementation of models using L2 gave poor results which might be due to inadequate tuning of parameter 'Lambda'.
 3. GBN did perform better than BN owing to split of batched data and calculation of mean and std. deviation thereof. 
 
-
+![alt text](https://raw.githubusercontent.com/curiouswala/EVA/main/A6/loss.png)
