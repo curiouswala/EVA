@@ -1,4 +1,4 @@
-#Assignment 6 
+# Assignment 6 
 
 The goal of the assignment was to take the best code of the 5th assignment and make it train for 25 epochs with 5 different types of regularization techniques given as:
 
@@ -23,9 +23,17 @@ targets into a dictionary. The output of which was plotted using matplotlib to s
 We also modularized the code by converting different functionalities of code into scripts. We also encountered the issue one faces when the code is distributed in multiple files.
 
 
-Observations:
+## Observations:
 1. The first model i.e. with L1 + BN performed well compared to other models but was inferior in terms of validation loss to GBN model.
 2. The implementation of models using L2 gave poor results which might be due to inadequate tuning of parameter 'Lambda'.
-3. GBN did perform better than BN owing to split of batched data and calculation of mean and std. deviation thereof. 
+3. GBN did perform better than BN owing to split of batched data and calculation of mean and std. deviation thereof.
+
+The misclassified images, Validation loss and Validation accuracy are given below:
+ 
+
+![alt text](https://raw.githubusercontent.com/curiouswala/EVA/main/A6/misclass.png)
 
 ![alt text](https://raw.githubusercontent.com/curiouswala/EVA/main/A6/loss.png)
+
+
+![alt text](https://raw.githubusercontent.com/curiouswala/EVA/main/A6/acc.png)
