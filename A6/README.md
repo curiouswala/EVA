@@ -31,7 +31,7 @@ We also modularized the code by converting different functionalities of code int
 The misclassified images, Validation loss and Validation accuracy are given below:
  
 
-![alt text](https://raw.githubusercontent.com/curiouswala/EVA/main/A6/misclass.png)
+![alt text]()
 
 ![alt text](https://raw.githubusercontent.com/curiouswala/EVA/main/A6/loss.png)
 
